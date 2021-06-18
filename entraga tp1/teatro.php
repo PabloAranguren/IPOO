@@ -1,9 +1,9 @@
 <?php 
-/*Un teatro se caracteriza por su nombre y su dirección y en él se realizan 4 funciones al día. Cada función tiene un nombre y un precio.
-Realice la implementación de la clase Teatro e implemente los métodos necesarios para cambiar el nombre del teatro, la dirección, el nombre de una 
-función y el precio.
-Implementar las 4 funciones usando un array que almacena la información correspondiente a cada función. Cada función es un array asociativo con las
-claves “nombre” y “precio”.
+/*Un teatro se caracteriza por su nombre y su direcciÃ³n y en Ã©l se realizan 4 funciones al dÃ­a. Cada funciÃ³n tiene un nombre y un precio.
+Realice la implementaciÃ³n de la clase Teatro e implemente los mÃ©todos necesarios para cambiar el nombre del teatro, la direcciÃ³n, el nombre de una 
+funciÃ³n y el precio.
+Implementar las 4 funciones usando un array que almacena la informaciÃ³n correspondiente a cada funciÃ³n. Cada funciÃ³n es un array asociativo con las
+claves â€œnombreâ€ y â€œprecioâ€.
 */
 
 class teatro{
@@ -14,7 +14,7 @@ class teatro{
     public function __construct($nombre,$direccion) {
         $funcion1 = array("Nombre"=>"Bossi Master Show","Precio"=>400);
         $funcion2 = array("Nombre"=>"Perfectos desconocidos","Precio"=>300);
-        $funcion3 = array("Nombre"=>"¿Qué hacemos con Walter?","Precio"=>200);
+        $funcion3 = array("Nombre"=>"Â¿QuÃ© hacemos con Walter?","Precio"=>200);
         $funcion4 = array("Nombre"=>"Enrique Pinti - Al fondo a la derecha","Precio"=>600);
         $this->nombTeatro = $nombre;
         $this->direcTeatro = $direccion;
